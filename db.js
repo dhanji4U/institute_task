@@ -12,8 +12,9 @@ con.connect(function (err) {
         console.error('error connecting: ' + err.stack);
         return;
     }
-
+    
     console.log('db connected');
+    
 });
 
 module.exports = con;
